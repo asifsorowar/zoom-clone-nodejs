@@ -117,6 +117,7 @@ video {
 .main__chat__window {
   overflow-y: scroll;
   flex: 1;
+  padding: 10px;
 }
 
 .messages {
@@ -156,4 +157,14 @@ video {
   top: 10px;
   left: 10px;
   color: #343434;
+}
+
+.message {
+  word-break: break-all;
+  color: #c5c1c1;
+  font-weight: 200;
+}
+
+.message b {
+  color: white;
 }

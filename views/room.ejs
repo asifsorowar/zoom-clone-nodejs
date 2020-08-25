@@ -13,6 +13,7 @@
     />
     <script>
       const ROOM_ID = "<%= roomId %>";
+      const username = window.prompt("Enter your user name:");
     </script>
   </head>
   <body>
@@ -68,7 +69,7 @@
           <h4>Chat</h4>
         </div>
         <div class="main__chat__window">
-          <ul class="messages"></ul>
+          <div class="messages"></div>
         </div>
         <div class="main__message__container">
           <input

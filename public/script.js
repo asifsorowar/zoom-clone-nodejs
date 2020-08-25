@@ -82,7 +82,7 @@ const sendMessage = () => {
   ///
   socket.on("createMessage", (message) => {
     $(".messages").append(
-      `<li class='message'><b>user</b><br/>${message}</li>`
+      `<li class='message'><b>${username} :</b><br/>${message}</li>`
     );
     scrollToBottom();
   });
