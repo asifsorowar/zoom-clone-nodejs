@@ -8,7 +8,7 @@ let myVideoStream;
 const peer = new Peer(undefined, {
   path: "/peerjs",
   host: "/",
-  port: 112,
+  port: "112",
 });
 
 navigator.mediaDevices
